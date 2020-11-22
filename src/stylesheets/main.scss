@@ -1,6 +1,19 @@
+//
+// Vendor
+//
 @import '~normalize.css/normalize.css';
 
-body {
-  background-color: Black;
-  color: White;
-}
+//
+// Config
+//
+@import './config';
+
+//
+// Tools (includes)
+//
+@import './includes/media', './includes/typography';
+
+//
+// Styles
+//
+@import './00_base/base', './00_base/typography';

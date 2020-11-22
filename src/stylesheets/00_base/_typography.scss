@@ -1,0 +1,18 @@
+// Default text style
+body {
+  font-family: $text-font-family;
+  line-height: $text-line-height;
+  font-weight: $text-font-weight;
+
+  // Enabe fluid typography
+  @include fluid-type($min-width, $max-width, $min-font, $max-font);
+}
+
+// Headers style
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: $header-font-family;
+    line-height: $header-line-height;
+    font-weight: $header-font-weight;
+  }
+}

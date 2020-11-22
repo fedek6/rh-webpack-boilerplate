@@ -1,0 +1,147 @@
+//
+// Layout
+//
+
+/// Horizontal base widh
+/// @group Layout
+/// @type Width
+$horizontal-base: 16px;
+
+/// Vertical base widh
+/// @group Layout
+/// @type Width
+$vertical-base: 16px;
+
+/// Available breakpoints
+/// @group Layout
+/// @type Map
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1200px,
+  xl: 1500px,
+);
+
+/// Layout width
+/// @group Layout
+/// @type Width
+$desktop-layout-width: 66vw;
+
+/// Column gap
+/// @group Layout
+/// @type Width
+$column-gap: $vertical-base;
+
+/// Row gap
+/// @group Layout
+/// @type Width
+$row-gap: $horizontal-base;
+
+//
+// Paths
+//
+
+/// Font path
+/// @group Paths
+/// @type Path
+$font-path: '../../fonts/';
+
+/// Image path
+/// @group Paths
+/// @type Path
+$image-path: '../../images/';
+
+//
+// Fonts
+//
+
+/// Header font family
+/// @group Fonts
+/// @type FontFamily
+$header-font-family: 'Roboto', Helvetica, sans-serif;
+
+/// Text font family
+/// @group Fonts
+/// @type FontFamily
+$text-font-family: 'Roboto', Helvetica, sans-serif;
+
+/// Include these fonts
+/// @group Fonts
+/// @type List
+$fonts: 'roboto-v20-latin-regular' 'Roboto' 'normal' 400,
+  'roboto-v20-latin-italic' 'Roboto' 'italic' 400;
+
+//
+// Typography
+//
+
+/// Header line height
+/// @group Fonts
+/// @type Height
+$header-line-height: 130%;
+
+/// Header font weight
+/// @group Fonts
+/// @type Weight
+$header-font-weight: 400;
+
+/// Text line height
+/// @group Fonts
+/// @type Height
+$text-line-height: 150%;
+
+/// Text line height
+/// @group Fonts
+/// @type Height
+$text-font-weight: 400;
+
+/// Base font size
+/// @group Fonts
+/// @type Height
+$base-text-size-mobile: 1rem;
+
+/// Base font size
+/// @group Fonts
+/// @type Height
+$base-text-size-desktop: 1rem;
+
+//
+// Fluid font calculation
+//
+
+// Attention! To disable this feature go to src/stylesheets/00_base/_typography.scss
+
+/// Min window width for font size calculation
+/// @group Fonts
+/// @type Width
+$min-width: 320px;
+
+/// Max window width for font size calculation
+/// @group Fonts
+/// @type Width
+$max-width: 1920px;
+
+/// Min font size
+/// @group Fonts
+/// @type Size
+$min-font: 14px;
+
+/// Max font size
+/// @group Fonts
+/// @type Size
+$max-font: 24px;
+
+//
+// Colors
+//
+
+/// Main color
+/// @group Colors
+/// @type Color
+$main-color: Black;
+
+/// Main color
+/// @group Colors
+/// @type Color
+$text-color: White;
