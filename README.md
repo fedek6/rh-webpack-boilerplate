@@ -1,14 +1,14 @@
 ![logo](https://realhe.ro/img/logo.svg "Realhe.ro")
 
 # rh-webpack-boilerplate
-Minimalistic Webpack boilerplate with Nunjucks support. 
+Minimalistic Webpack boilerplate with Nunjucks support.
 
 ## Usage
 
 ```bash
-git clone git@github.com:fedek6/rh-webpack-boilerplate.git 
-cd rh-webpack-boilerplate.git 
-npm install 
+git clone git@github.com:fedek6/rh-webpack-boilerplate.git
+cd rh-webpack-boilerplate
+npm install
 ```
 
 ## What’s included?
@@ -44,3 +44,7 @@ npm install
 - `check-stylelint-config` - check if Stylelint config contains any rules that are unnecessary or conflict with Prettier
 - `build-uncompressed` - create build in `build` folder (without compression)
 - `sassdoc` - build sassdoc website
+
+## Todo
+
+- `Nunjucks` compiles only when it's parent html file is being saved :(
