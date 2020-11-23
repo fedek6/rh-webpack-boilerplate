@@ -5,7 +5,7 @@
 ///
 /// @example Basic usage
 ///  @font-face {
-///      @include fontFaceLocal('BrunelPoster-Roman', 'BrunelPoster', 'normal', 400);
+///      @include fontFaceLocal('BrunelPoster-Roman', 'BrunelPoster', normal, 400);
 ///  }
 ///
 @mixin fontFaceLocal($font, $family, $style, $weight) {
@@ -14,8 +14,7 @@
   src: url($font-path + $font + '.eot?#iefix') format('embedded-opentype'),
     url($font-path + $font + '.woff') format('woff'),
     url($font-path + $font + '.ttf') format('truetype'),
-    url($font-path + $font + '.woff2') format('woff2'),
-    url($font-path + $font + '.svg#' + $font) format('svg');
+    url($font-path + $font + '.woff2') format('woff2');
   font-weight: $weight;
   font-style: $style;
 }
